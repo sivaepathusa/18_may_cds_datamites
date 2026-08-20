@@ -1,0 +1,968 @@
+{
+  "response_mode": "canonical_only",
+  "object_name": "household",
+  "record_id": "080155680000000000",
+  "template_name": [
+    "Schwab_Bene_Designation_CS_Template_APP12461 (14)",
+    "Designated_Bene_Plan_Agmt_CS_Template_APP12439 (7)"
+  ],
+  "payload": {
+    "schema_version": "1.0",
+    "source": "CSV Merge",
+    "description": "Merged household data from primary, household, and financial CSV files.",
+    "tax": {
+      "withholding": {
+        "federal": {
+          "rate": "10"
+        },
+        "state": {
+          "selection": "withholding",
+          "rate": "5"
+        }
+      }
+    },
+    "linking_key": "Marissa A. Castelone",
+    "ia_info": {
+      "firm_name": "ROYAL FUND MANAGEMENT",
+      "master_account_number": "0801-5568",
+      "service_team": "IG20",
+      "contact_name": "AARON HAWKS",
+      "telephone": "(515) 422-9021",
+      "email": "AARON@HAWKSIF.COM",
+      "relationship": {
+        "is_related_person": false,
+        "holds_external_assets": ""
+      }
+    },
+    "request_types": "add_authorized_viewer",
+    "transfer_options": {
+      "on_request": {
+        "type": "into_and_out_of_my_schwab_account"
+      }
+    },
+    "iac_account_holders": [
+      {
+        "email": "marissacastelone@yahoo.com",
+        "phone_update": {
+          "new": {
+            "mobile": "(515) 971-4146"
+          }
+        }
+      },
+      {
+        "email": "fakeemail@fake.com",
+        "phone_update": {
+          "new": {
+            "mobile": "(515) 971-4146"
+          }
+        }
+      }
+    ],
+    "ia_authorizations": {
+      "trading_and_disbursement": true,
+      "fee_payment_authorization": true,
+      "trading_authorization": ""
+    },
+    "issuer_communications": {
+      "proxy_voting": "account_holder",
+      "proxy_copy_delivery": "none",
+      "corporate_actions": "account_holder",
+      "corporate_actions_copy_delivery": "none",
+      "interim_mailings": "account_holder",
+      "object_to_release": true
+    },
+    "external_account": {
+      "account_holders": {
+        "full_name": "Marissa A. Castelone & Justin Powell"
+      },
+      "is_owner": false,
+      "is_same_account_holder": false,
+      "bank_name": "Bankers Trust",
+      "account_type": "personal_checking",
+      "account_number": "4444-5555",
+      "primary_name": "Marissa A. Castelone",
+      "routing_number": "123456789"
+    },
+    "account": {
+      "business_snn": "421111111",
+      "adjust_portfolio_timeline": "2 QTRs",
+      "margin_action": "add",
+      "transfer_approx_amount": "Non-Spouse Individual",
+      "decedent": {
+        "first_name": "John",
+        "middle_name": "",
+        "last_name": "Doe",
+        "schwab_account_number": "5555-5555",
+        "ssn_tax_id": "123456789",
+        "date_of_birth": "08/24/1965",
+        "date_of_death": "07/24/2026",
+        "account_type": "traditional_ira",
+        "relationship_to_decedent": "non_spouse_individual"
+      },
+      "source_of_funds": {
+        "types": [
+          "salary_wages_savings"
+        ],
+        "other_text": ""
+      },
+      "purpose": {
+        "types": "general_investing"
+      },
+      "ira_type": "",
+      "type_of_account": "",
+      "pension_type": "",
+      "issuer_communications": {
+        "proxy_voting_recipient": "account_holder",
+        "proxy_copy_recipient": "none",
+        "corporate_actions_recipient": "account_holder",
+        "corporate_actions_copy_recipient": "none",
+        "interim_mailings_recipient": "account_holder",
+        "objection_to_disclosure": true
+      },
+      "signatures": {
+        "primary": {
+          "print_name": "Marissa A. Castelone",
+          "custodial_print_name": "Marissa A. Castelone"
+        },
+        "additional": {
+          "print_name": "Justin Powell",
+          "custodial_print_name": "Justin Powell"
+        }
+      },
+      "authorization": {
+        "ia": true
+      },
+      "features": {
+        "limited_margin": true
+      },
+      "account_registration_type": "custodial",
+      "registration_type": "custodial",
+      "custodial": {
+        "state": "Clive",
+        "age_of_termination": "12"
+      }
+    },
+    "options_trading": {
+      "margin_action": "add",
+      "action": "add",
+      "strategy_level": "spread"
+    },
+    "account_distribution": {
+      "type": "per_stirpes"
+    },
+    "finra": {
+      "exchange_affiliation": {
+        "answer": false,
+        "company_name": ""
+      },
+      "public_company_affiliation": {
+        "answer": false,
+        "company_name": ""
+      }
+    },
+    "custodian_information": {
+      "first_name": "Cindy",
+      "middle_name": "",
+      "last_name": "Whaley",
+      "full_name": "Cindy Whaley",
+      "suffix": "",
+      "preferred_name": "",
+      "ssn": "483728001",
+      "dob": "06/01/1960",
+      "email": "cindylyn99@yahoo.com",
+      "phone": "(712) 621-8222",
+      "address": {
+        "line1": "120 West 3rd Street",
+        "city": "Villisca",
+        "state": "IA",
+        "zip": "50864",
+        "country": "United States"
+      },
+      "legal_street_address": "120 West 3rd Street",
+      "legal_city": "Villisca",
+      "legal_state": "IA",
+      "legal_zip": "50864",
+      "legal_country": "United States",
+      "mailing_street_address": "120 West 3rd Street",
+      "mailing_city": "Villisca",
+      "mailing_state": "IA",
+      "mailing_zip": "50864",
+      "mailing_country": "United States",
+      "home_phone": "(712) 621-8222",
+      "mobile_phone": "(712) 621-8222",
+      "work_phone": "",
+      "extension": "",
+      "mothers_maiden_name": "",
+      "citizenship": {
+        "type": "United States"
+      },
+      "citizenship_country": "",
+      "legal_residence": {
+        "type": "United States"
+      },
+      "residence": {
+        "type": "United States"
+      },
+      "residence_country": "",
+      "id_document_type": "driver_license",
+      "id_number": "719YY7110",
+      "id_state_of_issuance": "IA",
+      "id_country_of_issuance": "USA",
+      "id_issue_date": "07/18/2024",
+      "id_expiration_date": "06/01/1932",
+      "employment": {
+        "status": "retired",
+        "occupation": "",
+        "employer_name": "City of Villisca [FORMER]",
+        "business_address": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "country": "United States"
+        }
+      },
+      "occupation_category": "",
+      "occupation_other_specify": "",
+      "employer_name": "City of Villisca [FORMER]",
+      "business_street_address": "",
+      "business_city": "",
+      "business_state": "",
+      "business_zip": "",
+      "business_country": "United States"
+    },
+    "custodian_finra": {
+      "exchange_affiliation": {
+        "answer": false,
+        "company_name": ""
+      },
+      "public_company_affiliation": {
+        "answer": false,
+        "company_name": ""
+      }
+    },
+    "ira_selection": {
+      "type": "",
+      "raw_type": "schwab_one",
+      "is_bene_ira": true
+    },
+    "business_information": {
+      "adopting_employer": {
+        "name": "Hawks Financial",
+        "name_of_business": "",
+        "sep_name_of_business": "",
+        "address": "1370 NW 114th St Ste 204",
+        "city": "",
+        "state": "",
+        "zip": "",
+        "phone": "(515) 422-9021",
+        "snn": "421111111",
+        "plan_number": ""
+      }
+    },
+    "rollover_suitability": {
+      "client_profile": {
+        "client_age": "33.9 / 33.5",
+        "current_annual_income": "600000 / 100000",
+        "income_tax_bracket_percent": "24%",
+        "desired_retirement_age": "65 / 65",
+        "liquid_net_worth": "500000",
+        "net_worth_including_residence": "1430000",
+        "net_worth_excluding_residence": "1300000",
+        "current_investment_holdings": "Mutual Funds"
+      },
+      "investment_objectives": {
+        "desired_retirement_income_not_applicable": true,
+        "desired_retirement_income_amount": "",
+        "estimated_annual_inflation_rate_percent": "3%",
+        "proposed_investment_time_horizon": "40 YEARS"
+      },
+      "risk_tolerance": "not_applicable",
+      "iac2_risk_tolerance": "moderate_aggressive",
+      "general_investment_goals": {
+        "dividend_yield_with_growth_secondary": false,
+        "long_term_growth": true,
+        "other_description": ""
+      },
+      "acceptable_short_term_loss": "15_20_percent",
+      "short_term_period_loss": "15_20_percent",
+      "advisor_proposed_investment_strategies": "Non-Discretionary Language adfghjklkj hgfdsdfghjklk ij uhygt fdsdfghjkjuh gfdcxsfghj klkjuh\nIA will manage a portfolio of individual stocks with the primary objective of long-term growth. IA will initiate option spreads to double upside performance limited to a specific price for each stock position. Opportunity cost could occur if the stock rose significantly above that specific price.  Client accepts moderate-aggressive risk profile with capital appreciation the primary objective. IA may utilize options to protect gains when a stock rises above the targeted price. The option spreads do not add risk. The risk is limited to the movement of the underlying stocks. A high level of cash may be held in the account at times when stocks are sold, and new trades are being considered. The strategy is available for both non-qualified and qualified accounts, but due to realized gain/loss transactions, client should be aware of the annual tax implications in a non-qualified account. This strategy projects a target rate of return of 15-20%. Our custodian charges a per option contract fee, currently 65 cents per contract. RFM does not share in this custodial fee.   Limited Stock Choice/Diversification Disclosure  The Back/Ratio Spread Strategy requires stocks be bought in increments of 100 shares.  For accounts under $500,000, this may limit the number of stocks bought for the account or may limit which stocks are bought due to the price of the stock. The possible limited stock choice or limited diversification have the potential to increase risk due to the smaller number of positions held in an account or a smaller number of positions to choose from.\nIA will manage a portfolio of individual stocks with the primary objective of long-term growth. IA will initiate option spreads to double upside performance limited to a specific price for each stock position. Opportunity costs could occur if the stock rose significantly above that specific price. Clients accept a moderate risk profile with capital appreciation the primary objective. IA may utilize options to protect gains when a stock rises above the targeted price. The option spreads do not add risk, but could create opportunity costs. The risk is limited to the movement of the underlying stocks. A high level of cash may be held in the account at times when stocks are sold, and new trades considered. The strategy is available for both non-qualified and are being qualified accounts, but due to realized gain/loss, client should be aware of the annual tax implications in a non-qualified account. This strategy projects a target rate of return of 12-15%. Our custodian charges a per option contract fee, currently 65 cents per contract. RFM does not share in this custodial fee. Limited Stock Choice/Diversification Disclosure  The Low Vol Back/Ratio Spread Strategy requires stocks be bought in increments of 100 shares.  For accounts under $500,000, this may limit the number of stocks bought for the account or may limit which stocks are bought due to the price of the stock. The possible limited stock choice or limited diversification have the potential to increase risk due to the smaller number of positions held in an account or a smaller number of positions to choose from.\naWGJJR'IGHSRGKA'BNA'VB JAEJRGA'\nIA will manage a portfolio of ETFs with the primary objective of long-term aggressive growth. ETFs of major indices will be utilized for at least half of the strategy. IA will also use ETFs representing specific investment styles or sectors deemed to perform better intermediate to longer term. Client accepts an aggressive risk profile with capital appreciation the primary objective. The strategy can be blended with other strategies so that the entire portfolio has less than an aggressive risk profile. In the event, based on market conditions, IA deems that higher Strategy cash is necessary for a period of time, IA may buy cash alternatives. This strategy projects a target rate of return of 8-10% average annual return longer term. \n\nAdd to Dividend Reinvestment Program (DRIP) Yes [X]",
+      "negotiated_management_fee": "1.25%",
+      "is_pension_plan": false,
+      "schwab_acct_type": "Other",
+      "current_firm_account_type": "Other",
+      "other_account_type": "TOD",
+      "transfer_reason_raw": "Transfer / Changing Custodian",
+      "reason_other_description": "",
+      "transfer_tax_implications": "No",
+      "tax_consideration_explanation": "",
+      "compensation": {
+        "professional_management": true,
+        "diversification": true,
+        "larger_investment_menu": true,
+        "annual_reviews": true,
+        "local_adviser": true,
+        "ability_to_contribute_withdraw": false,
+        "holistic_planning": true,
+        "other": false
+      }
+    },
+    "authorized_viewer": {
+      "first_name": "Justin",
+      "middle_name": "",
+      "last_name": "Powell",
+      "print_name": "Justin Powell",
+      "legal_address": {
+        "street": "1501 East Pioneer Road",
+        "city": "Des Moines",
+        "state": "IA",
+        "zip": "50320",
+        "country": "United States"
+      },
+      "mailing_address": {
+        "street": "1501 East Pioneer Road",
+        "city": "Des Moines",
+        "state": "IA",
+        "zip": "50320",
+        "country": "United States"
+      },
+      "contact": {
+        "telephone": "(515) 971-4146",
+        "mobile": "(515) 971-4146",
+        "work": "",
+        "extension": "",
+        "email": "fakeemail@fake.com"
+      },
+      "citizenship": {
+        "usa": true,
+        "other": false,
+        "type": ""
+      }
+    },
+    "household": {
+      "account_full_name": "Castelone, Marissa",
+      "account_name_without_number": "Marissa A. Castelone Desig. Bene",
+      "portfolio_NetWorth": "7.25",
+      "investment_experience": "Mutual Funds; ETFs",
+      "investment_knowledge": "Minimal",
+      "mailing_address_street": "1051 65th Street",
+      "mailing_city_state_zip": "Windsor Heights, IA 50324",
+      "mailing_state_zip": "Windsor Heights IA 50324",
+      "account_name": "Marissa A. Castelone & Justin Powell",
+      "liquid_net_worth": "500000",
+      "net_worth_without_residence": "1300000",
+      "net_worth_with_residence": "1430000",
+      "tax_bracket": "24%",
+      "dependents": "0",
+      "sub_accounts": [
+        {
+          "account_name": "Marissa A. Castelone Desig. Bene 9999-8888",
+          "tax_bracket": "24%",
+          "dependents": "0",
+          "account_type": "Custodial",
+          "other_account_type": "Custodial",
+          "account_subtype": "",
+          "account_number": "9999-8888",
+          "primaryname": "Marissa A. Castelone",
+          "name_on_account": "Marissa A. Castelone & Justin Powell",
+          "service_provider": "Charles Schwab",
+          "status": "Active",
+          "rep_code": "",
+          "orig_iac_date": "03/16/2026",
+          "risk_tolerance": "Not Applicable",
+          "financial_bucket": "Non-Discretionary Management",
+          "advisor_fee": "1.25%",
+          "options_enabled": true,
+          "margins_enabled": true,
+          "joint_owner": {
+            "first_name": "Justin",
+            "middle_name": "",
+            "last_name": "Powell",
+            "full_name": "Justin Powell"
+          },
+          "is_checking": false,
+          "is_savings": false,
+          "strategy_language": "Non-Discretionary Language adfghjklkj hgfdsdfghjklk ij uhygt fdsdfghjkjuh gfdcxsfghj klkjuh\nIA will manage a portfolio of individual stocks with the primary objective of long-term growth. IA will initiate option spreads to double upside performance limited to a specific price for each stock position. Opportunity cost could occur if the stock rose significantly above that specific price.  Client accepts moderate-aggressive risk profile with capital appreciation the primary objective. IA may utilize options to protect gains when a stock rises above the targeted price. The option spreads do not add risk. The risk is limited to the movement of the underlying stocks. A high level of cash may be held in the account at times when stocks are sold, and new trades are being considered. The strategy is available for both non-qualified and qualified accounts, but due to realized gain/loss transactions, client should be aware of the annual tax implications in a non-qualified account. This strategy projects a target rate of return of 15-20%. Our custodian charges a per option contract fee, currently 65 cents per contract. RFM does not share in this custodial fee.   Limited Stock Choice/Diversification Disclosure  The Back/Ratio Spread Strategy requires stocks be bought in increments of 100 shares.  For accounts under $500,000, this may limit the number of stocks bought for the account or may limit which stocks are bought due to the price of the stock. The possible limited stock choice or limited diversification have the potential to increase risk due to the smaller number of positions held in an account or a smaller number of positions to choose from.\nIA will manage a portfolio of individual stocks with the primary objective of long-term growth. IA will initiate option spreads to double upside performance limited to a specific price for each stock position. Opportunity costs could occur if the stock rose significantly above that specific price. Clients accept a moderate risk profile with capital appreciation the primary objective. IA may utilize options to protect gains when a stock rises above the targeted price. The option spreads do not add risk, but could create opportunity costs. The risk is limited to the movement of the underlying stocks. A high level of cash may be held in the account at times when stocks are sold, and new trades considered. The strategy is available for both non-qualified and are being qualified accounts, but due to realized gain/loss, client should be aware of the annual tax implications in a non-qualified account. This strategy projects a target rate of return of 12-15%. Our custodian charges a per option contract fee, currently 65 cents per contract. RFM does not share in this custodial fee. Limited Stock Choice/Diversification Disclosure  The Low Vol Back/Ratio Spread Strategy requires stocks be bought in increments of 100 shares.  For accounts under $500,000, this may limit the number of stocks bought for the account or may limit which stocks are bought due to the price of the stock. The possible limited stock choice or limited diversification have the potential to increase risk due to the smaller number of positions held in an account or a smaller number of positions to choose from.\naWGJJR'IGHSRGKA'BNA'VB JAEJRGA'\nIA will manage a portfolio of ETFs with the primary objective of long-term aggressive growth. ETFs of major indices will be utilized for at least half of the strategy. IA will also use ETFs representing specific investment styles or sectors deemed to perform better intermediate to longer term. Client accepts an aggressive risk profile with capital appreciation the primary objective. The strategy can be blended with other strategies so that the entire portfolio has less than an aggressive risk profile. In the event, based on market conditions, IA deems that higher Strategy cash is necessary for a period of time, IA may buy cash alternatives. This strategy projects a target rate of return of 8-10% average annual return longer term. \n\nAdd to Dividend Reinvestment Program (DRIP) Yes [X]",
+          "additional_strategy_language": "None",
+          "under_state_laws": "",
+          "age_of_termination": "12",
+          "source_of_funds": "Salary/Wages/Savings",
+          "purpose_of_account": "General",
+          "acct_bank_owner_match": "0",
+          "acct_bank_ssn_match": "0",
+          "adjust_portfolio_timeline": "2 QTRs",
+          "bank_details": {
+            "bank_name": "Bankers Trust",
+            "bank_address": "7000 University Ave, Windsor Heights, IA 50324",
+            "bank_phone": "(515) 271-1000",
+            "routing_number": "123456789",
+            "bank_acct_type": "Personal Checking",
+            "bank_initiations": "Into and out of my Schwab account"
+          }
+        }
+      ]
+    },
+    "members": [
+      {
+        "role": "primary",
+        "profile": {
+          "first_name": "Marissa",
+          "middle_name": "A.",
+          "last_name": "Castelone",
+          "full_name": "Marissa A. Castelone",
+          "gender": "",
+          "birthdate": "08/10/1992",
+          "ssn": "111223333",
+          "is_primary_residence": true,
+          "brokerage_account_number": "9999-8888",
+          "marital_status": "single",
+          "tax_filing": "Single",
+          "mothers_maiden_name": "Austin",
+          "military_status": "N/A",
+          "dependents": "0",
+          "signature": {
+            "print_name": "Marissa A. Castelone"
+          },
+          "citizenship": {
+            "type": "United States"
+          },
+          "residence": {
+            "type": "USA"
+          },
+          "occupation": {
+            "type": "Executive/Senior Management"
+          },
+          "income_sources": "",
+          "relationship_to_account": "non_spouse_individual",
+          "contact": {
+            "mobile": "(515) 971-4146",
+            "phone": "(515) 971-4146",
+            "primary_phone": "(515) 971-4146",
+            "email": "marissacastelone@yahoo.com"
+          },
+          "address": {
+            "line1": "1051 65th Street",
+            "line2": "",
+            "city": "Windsor Heights",
+            "country": "United States",
+            "state": "IA",
+            "zip": "50324"
+          },
+          "phone_update": {
+            "home": "(515) 971-4146"
+          },
+          "employment": {
+            "status": "employed",
+            "employer_name": "ABC Construction",
+            "business_address": {
+              "street": "1234 Anywhere Drive",
+              "city": "Clive",
+              "country": "USA",
+              "state": "IA",
+              "zip": "50325"
+            },
+            "occupation": {
+              "type": "Executive/Senior Management"
+            },
+            "annual_income": "600000"
+          },
+          "retirement": {
+            "desired_retirement_age": "65"
+          },
+          "drivers_license": {
+            "number": "123AA456",
+            "state_of_issue": "IA",
+            "issue_date": "01/01/2026",
+            "exp_date": "01/01/2030"
+          },
+          "investment_profile": {
+            "stock": {
+              "knowledge_level": "limited",
+              "years_trading": "2",
+              "trades_per_year": "5",
+              "avg_transaction_amount": "100"
+            },
+            "options": {
+              "knowledge_level": "none",
+              "years_trading": "0",
+              "trades_per_year": "0",
+              "avg_transaction_amount": "0"
+            },
+            "bonds": {
+              "knowledge_level": "limited",
+              "years_trading": "1",
+              "trades_per_year": "1",
+              "avg_transaction_amount": "50"
+            },
+            "commodities": {
+              "knowledge_level": "none",
+              "years_trading": "0",
+              "trades_per_year": "0",
+              "avg_transaction_amount": "0"
+            },
+            "other_instruments": {
+              "knowledge_level": "none",
+              "years_trading": "0",
+              "trades_per_year": "0",
+              "avg_transaction_amount": "0"
+            }
+          }
+        },
+        "financial_accounts": [
+          {
+            "account_type": "Custodial",
+            "account_subtype": "",
+            "account_number": "9999-8888",
+            "primaryname": "Marissa A. Castelone",
+            "transfer_account_number": "86753099",
+            "transfer_account_title": "Marissa A. Castelone Desig. Bene",
+            "transfer_account_type": "TOD",
+            "transfer_firm": "Morgan Stanley",
+            "transfer_firm_phone": "800-111-2222",
+            "account_name": "Marissa A. Castelone Desig. Bene 9999-8888",
+            "name_on_account": "Marissa A. Castelone & Justin Powell",
+            "service_provider": "Charles Schwab",
+            "status": "Active",
+            "rep_code": "",
+            "orig_iac_date": "03/16/2026",
+            "risk_tolerance": "Not Applicable",
+            "financial_bucket": "Non-Discretionary Management",
+            "advisor_fee": "1.25%",
+            "options_enabled": true,
+            "margins_enabled": true,
+            "joint_owner": {
+              "first_name": "Justin",
+              "middle_name": "",
+              "last_name": "Powell",
+              "full_name": "Justin Powell"
+            },
+            "is_checking": false,
+            "is_savings": false,
+            "strategy_language": "Non-Discretionary Language adfghjklkj hgfdsdfghjklk ij uhygt fdsdfghjkjuh gfdcxsfghj klkjuh\nIA will manage a portfolio of individual stocks with the primary objective of long-term growth. IA will initiate option spreads to double upside performance limited to a specific price for each stock position. Opportunity cost could occur if the stock rose significantly above that specific price.  Client accepts moderate-aggressive risk profile with capital appreciation the primary objective. IA may utilize options to protect gains when a stock rises above the targeted price. The option spreads do not add risk. The risk is limited to the movement of the underlying stocks. A high level of cash may be held in the account at times when stocks are sold, and new trades are being considered. The strategy is available for both non-qualified and qualified accounts, but due to realized gain/loss transactions, client should be aware of the annual tax implications in a non-qualified account. This strategy projects a target rate of return of 15-20%. Our custodian charges a per option contract fee, currently 65 cents per contract. RFM does not share in this custodial fee.   Limited Stock Choice/Diversification Disclosure  The Back/Ratio Spread Strategy requires stocks be bought in increments of 100 shares.  For accounts under $500,000, this may limit the number of stocks bought for the account or may limit which stocks are bought due to the price of the stock. The possible limited stock choice or limited diversification have the potential to increase risk due to the smaller number of positions held in an account or a smaller number of positions to choose from.\nIA will manage a portfolio of individual stocks with the primary objective of long-term growth. IA will initiate option spreads to double upside performance limited to a specific price for each stock position. Opportunity costs could occur if the stock rose significantly above that specific price. Clients accept a moderate risk profile with capital appreciation the primary objective. IA may utilize options to protect gains when a stock rises above the targeted price. The option spreads do not add risk, but could create opportunity costs. The risk is limited to the movement of the underlying stocks. A high level of cash may be held in the account at times when stocks are sold, and new trades considered. The strategy is available for both non-qualified and are being qualified accounts, but due to realized gain/loss, client should be aware of the annual tax implications in a non-qualified account. This strategy projects a target rate of return of 12-15%. Our custodian charges a per option contract fee, currently 65 cents per contract. RFM does not share in this custodial fee. Limited Stock Choice/Diversification Disclosure  The Low Vol Back/Ratio Spread Strategy requires stocks be bought in increments of 100 shares.  For accounts under $500,000, this may limit the number of stocks bought for the account or may limit which stocks are bought due to the price of the stock. The possible limited stock choice or limited diversification have the potential to increase risk due to the smaller number of positions held in an account or a smaller number of positions to choose from.\naWGJJR'IGHSRGKA'BNA'VB JAEJRGA'\nIA will manage a portfolio of ETFs with the primary objective of long-term aggressive growth. ETFs of major indices will be utilized for at least half of the strategy. IA will also use ETFs representing specific investment styles or sectors deemed to perform better intermediate to longer term. Client accepts an aggressive risk profile with capital appreciation the primary objective. The strategy can be blended with other strategies so that the entire portfolio has less than an aggressive risk profile. In the event, based on market conditions, IA deems that higher Strategy cash is necessary for a period of time, IA may buy cash alternatives. This strategy projects a target rate of return of 8-10% average annual return longer term. \n\nAdd to Dividend Reinvestment Program (DRIP) Yes [X]",
+            "additional_strategy_language": "None",
+            "under_state_laws": "Clive",
+            "age_of_termination": "12",
+            "source_of_funds": "Salary/Wages/Savings",
+            "purpose_of_account": "General",
+            "acct_bank_owner_match": "0",
+            "acct_bank_ssn_match": "0",
+            "adjust_portfolio_timeline": "2 QTRs",
+            "bank_details": {
+              "bank_name": "Bankers Trust",
+              "bank_address": "7000 University Ave, Windsor Heights, IA 50324",
+              "bank_phone": "(515) 271-1000",
+              "routing_number": "123456789",
+              "bank_acct_type": "Personal Checking",
+              "bank_initiations": "Into and out of my Schwab account"
+            }
+          }
+        ]
+      },
+      {
+        "role": "custodial_minor",
+        "profile": {
+          "first_name": "Jana",
+          "middle_name": "N.",
+          "last_name": "Castelone",
+          "full_name": "Jana N. Castelone",
+          "gender": "",
+          "birthdate": "08/24/1961",
+          "ssn": "503788829",
+          "marital_status": "widowed",
+          "tax_filing": "",
+          "mothers_maiden_name": "",
+          "military_status": "",
+          "signature": {
+            "print_name": "Jana N. Castelone"
+          },
+          "contact": {
+            "mobile": "(515) 669-1957",
+            "phone": "(515) 669-1957",
+            "primary_phone": "(515) 669-1957",
+            "email": "jcastelone@yahoo.com"
+          },
+          "address": {
+            "line1": "7114 Reite Avenue",
+            "line2": "",
+            "city": "Windsor Heights",
+            "country": "United States",
+            "state": "IA",
+            "zip": "50324"
+          },
+          "phone_update": {
+            "home": "(515) 669-1957"
+          },
+          "citizenship": {
+            "type": "United States"
+          },
+          "residence": {
+            "type": "usa"
+          },
+          "occupation": {
+            "type": ""
+          },
+          "employment": {
+            "status": "",
+            "employer_name": "",
+            "business_address": {
+              "street": "",
+              "city": "",
+              "state": "",
+              "zip": "",
+              "country": "United States"
+            },
+            "occupation": {
+              "type": ""
+            },
+            "annual_income": ""
+          },
+          "drivers_license": {
+            "number": "",
+            "state_of_issue": "",
+            "issue_date": "",
+            "exp_date": ""
+          }
+        },
+        "financial_accounts": []
+      },
+      {
+        "role": "custodian_for_minor",
+        "profile": {
+          "first_name": "Cindy",
+          "middle_name": "",
+          "last_name": "Whaley",
+          "full_name": "Cindy Whaley",
+          "gender": "",
+          "birthdate": "06/01/1960",
+          "ssn": "483728001",
+          "is_primary_residence": true,
+          "brokerage_account_number": "9999-8888",
+          "marital_status": "married",
+          "tax_filing": "Married Filing Jointly",
+          "mothers_maiden_name": "",
+          "military_status": "N/A",
+          "dependents": "0",
+          "signature": {
+            "print_name": "Cindy Whaley"
+          },
+          "citizenship": {
+            "type": "United States"
+          },
+          "residence": {
+            "type": "United States"
+          },
+          "occupation": {
+            "type": ""
+          },
+          "income_sources": "",
+          "relationship_to_account": "account_holder",
+          "contact": {
+            "mobile": "(712) 621-8222",
+            "phone": "(712) 621-8222",
+            "primary_phone": "(712) 621-8222",
+            "email": "cindylyn99@yahoo.com"
+          },
+          "address": {
+            "line1": "120 West 3rd Street",
+            "line2": "",
+            "city": "Villisca",
+            "country": "United States",
+            "state": "IA",
+            "zip": "50864"
+          },
+          "phone_update": {
+            "home": "(712) 621-8222"
+          },
+          "employment": {
+            "status": "retired",
+            "employer_name": "City of Villisca [FORMER]",
+            "occupation": {
+              "type": ""
+            },
+            "occupation_other": "",
+            "annual_income": "",
+            "business_address": {
+              "street": "",
+              "city": "",
+              "state": "",
+              "zip": "",
+              "country": "United States"
+            }
+          },
+          "drivers_license": {
+            "number": "719YY7110",
+            "state_of_issue": "IA",
+            "issue_date": "07/18/2024",
+            "exp_date": "06/01/1932"
+          },
+          "id_document_type": "driver_license",
+          "id_country_of_issuance": "USA",
+          "finra_association": {
+            "is_associated": false,
+            "company_name": ""
+          },
+          "finra_shareholder": {
+            "is_affiliated": false,
+            "company_name": "",
+            "trading_symbol": ""
+          },
+          "financials": {
+            "liquid_net_worth": "500000",
+            "total_net_worth": "1430000"
+          },
+          "investment_profile": {
+            "stock": {
+              "knowledge_level": "none",
+              "years_trading": "",
+              "trades_per_year": "",
+              "avg_transaction_amount": ""
+            },
+            "options": {
+              "knowledge_level": "none",
+              "years_trading": "",
+              "trades_per_year": "",
+              "avg_transaction_amount": ""
+            },
+            "bonds": {
+              "knowledge_level": "none",
+              "years_trading": "",
+              "trades_per_year": "",
+              "avg_transaction_amount": ""
+            },
+            "commodities": {
+              "knowledge_level": "none",
+              "years_trading": "",
+              "trades_per_year": "",
+              "avg_transaction_amount": ""
+            },
+            "other_instruments": {
+              "knowledge_level": "none",
+              "years_trading": "",
+              "trades_per_year": "",
+              "avg_transaction_amount": ""
+            }
+          }
+        },
+        "financial_accounts": []
+      },
+      {
+        "role": "joint_owner",
+        "profile": {
+          "first_name": "Justin",
+          "middle_name": "",
+          "last_name": "Powell",
+          "full_name": "Justin Powell",
+          "gender": "",
+          "birthdate": "01/02/1993",
+          "ssn": "222334444",
+          "is_primary_residence": true,
+          "brokerage_account_number": "9999-8888",
+          "marital_status": "single",
+          "tax_filing": "Single",
+          "mothers_maiden_name": "whoknows",
+          "military_status": "Active",
+          "dependents": "0",
+          "signature": {
+            "print_name": "Justin Powell"
+          },
+          "citizenship": {
+            "type": "United States"
+          },
+          "residence": {
+            "type": "United States"
+          },
+          "occupation": {
+            "type": "Trade/Service (labor/manufacturing/production)"
+          },
+          "income_sources": "",
+          "relationship_to_account": "account_holder",
+          "contact": {
+            "mobile": "(515) 971-4146",
+            "phone": "(515) 971-4146",
+            "primary_phone": "(515) 971-4146",
+            "email": "fakeemail@fake.com"
+          },
+          "address": {
+            "line1": "1501 East Pioneer Road",
+            "line2": "",
+            "city": "Des Moines",
+            "country": "United States",
+            "state": "IA",
+            "zip": "50320"
+          },
+          "phone_update": {
+            "home": "(515) 971-4146"
+          },
+          "employment": {
+            "status": "employed",
+            "employer_name": "Fake Company",
+            "occupation": {
+              "type": "Trade/Service (labor/manufacturing/production)"
+            },
+            "occupation_other": "",
+            "annual_income": "100000",
+            "business_address": {
+              "street": "1234 fake address",
+              "city": "Des Moines",
+              "state": "IA",
+              "zip": "50320",
+              "country": "United States"
+            }
+          },
+          "drivers_license": {
+            "number": "222AA6666",
+            "state_of_issue": "IA",
+            "issue_date": "01/01/2026",
+            "exp_date": "12/31/2026"
+          },
+          "id_document_type": "driver_license",
+          "id_country_of_issuance": "USA",
+          "finra_association": {
+            "is_associated": false,
+            "company_name": ""
+          },
+          "finra_shareholder": {
+            "is_affiliated": false,
+            "company_name": "",
+            "trading_symbol": ""
+          },
+          "financials": {
+            "liquid_net_worth": "500000",
+            "total_net_worth": "1430000"
+          },
+          "investment_profile": {
+            "stock": {
+              "knowledge_level": "none",
+              "years_trading": "",
+              "trades_per_year": "",
+              "avg_transaction_amount": ""
+            },
+            "options": {
+              "knowledge_level": "none",
+              "years_trading": "",
+              "trades_per_year": "",
+              "avg_transaction_amount": ""
+            },
+            "bonds": {
+              "knowledge_level": "none",
+              "years_trading": "",
+              "trades_per_year": "",
+              "avg_transaction_amount": ""
+            },
+            "commodities": {
+              "knowledge_level": "none",
+              "years_trading": "",
+              "trades_per_year": "",
+              "avg_transaction_amount": ""
+            },
+            "other_instruments": {
+              "knowledge_level": "none",
+              "years_trading": "",
+              "trades_per_year": "",
+              "avg_transaction_amount": ""
+            }
+          }
+        },
+        "financial_accounts": []
+      },
+      {
+        "role": "beneficiary",
+        "profile": {
+          "inheritance_rule": "0",
+          "percentage": "100",
+          "portion_percent": "100",
+          "trust_name": "",
+          "apply_account_distribution": "false",
+          "relationship": "parent",
+          "beneficiary_type": "Primary",
+          "first_name": "Jana",
+          "middle_name": "N.",
+          "last_name": "Castelone",
+          "full_name": "Jana N. Castelone",
+          "gender": "",
+          "birthdate": "08/24/1961",
+          "ssn": "503788829",
+          "marital_status": "widowed",
+          "tax_filing": "",
+          "mothers_maiden_name": "",
+          "military_status": "",
+          "dependents": "",
+          "contact": {
+            "mobile": "(515) 669-1957",
+            "phone": "(515) 669-1957",
+            "primary_phone": "(515) 669-1957",
+            "email": "jcastelone@yahoo.com"
+          },
+          "address": {
+            "line1": "7114 Reite Avenue",
+            "line2": "",
+            "city": "Windsor Heights",
+            "country": "United States",
+            "state": "IA",
+            "zip": "50324",
+            "state_zip": "IA 50324"
+          },
+          "citizenship": {
+            "type": "United States"
+          },
+          "residence": {
+            "type": "usa"
+          },
+          "employment": null,
+          "retirement": null,
+          "drivers_license": null
+        },
+        "financial_accounts": []
+      },
+      {
+        "role": "contingent_beneficiary",
+        "profile": {
+          "inheritance_rule": "1",
+          "percentage": "100",
+          "portion_percent": "100",
+          "trust_name": "",
+          "apply_account_distribution": "true",
+          "relationship": "other_individual",
+          "beneficiary_type": "Contingent",
+          "first_name": "Justin",
+          "middle_name": "",
+          "last_name": "Powell",
+          "full_name": "Justin Powell",
+          "gender": "",
+          "birthdate": "01/02/1993",
+          "ssn": "222334444",
+          "marital_status": "single",
+          "tax_filing": "",
+          "mothers_maiden_name": "",
+          "military_status": "",
+          "dependents": "",
+          "contact": {
+            "mobile": "(515) 971-4146",
+            "phone": "(515) 971-4146",
+            "primary_phone": "(515) 971-4146",
+            "email": "fakeemail@fake.com"
+          },
+          "address": {
+            "line1": "1501 East Pioneer Road",
+            "line2": "",
+            "city": "Des Moines",
+            "country": "United States",
+            "state": "IA",
+            "zip": "50320",
+            "state_zip": "IA 50320"
+          },
+          "citizenship": {
+            "type": "United States"
+          },
+          "residence": {
+            "type": "usa"
+          },
+          "employment": null,
+          "retirement": null,
+          "drivers_license": null
+        },
+        "financial_accounts": []
+      }
+    ]
+  }
+}
